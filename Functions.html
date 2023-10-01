@@ -2,6 +2,9 @@ A JavaScript function is a block of code designed to perform a particular task.
 
 A JavaScript function is executed when "something" invokes it (calls it).
 
+https://www.w3schools.com/js/js_functions.asp
+
+
 //Function
 <html>
     <head>
@@ -52,3 +55,115 @@ A JavaScript function is executed when "something" invokes it (calls it).
 30
 
 //Function Parameter
+<html>
+    <head>
+        <title> JavaScript Practice </title>
+    </head>
+    <body>
+
+    <script>
+
+    function addTwoNumber(num1,num2){
+    
+        var num3 = num1+num2;
+
+        document.write(num3+"<br>");
+    }
+     addTwoNumber(10,20);
+
+    </script>
+    </body>
+</html>
+//output
+30
+
+<html>
+    <head>
+        <title> JavaScript Practice </title>
+    </head>
+    <body>
+
+    <script>
+
+    function addTwoNumber(num1,num2){
+    
+        var num3 = num1+num2;
+
+        document.write(num3+"<br>");
+    }
+     addTwoNumber(10,20);
+     addTwoNumber(5,5);
+     addTwoNumber(7,8);
+
+    </script>
+    </body>
+</html>
+//output
+30
+10
+15
+
+<html>
+    <head>
+        <title> JavaScript Practice </title>
+    </head>
+    <body>
+
+    <script>
+
+    function WriteMyName(name){
+    
+        document.write(name+"<br>");
+    }
+    WriteMyName("Hridoy");
+    WriteMyName("Rabby");
+
+    </script>
+    </body>
+</html>
+//output
+Hridoy
+Rabby
+
+//Function Return
+<html>
+    <head>
+        <title> JavaScript Practice </title>
+    </head>
+    <body>
+
+    <script>
+
+    function addTwoNumber(num1,num2){
+    
+       return num1+num2;
+    }
+     var newvalue=addTwoNumber(10,20);
+     document.write(newvalue);
+
+    </script>
+    </body>
+</html>
+//output
+30
+
+<html>
+    <head>
+        <title> JavaScript Practice </title>
+    </head>
+    <body>
+
+    <script>
+
+    function addTwoNumber(){
+    
+       return "Hridoy";
+    }
+     var newvalue=addTwoNumber()+" Jomadder";
+     document.write(newvalue);
+
+    </script>
+    </body>
+</html>
+//output
+Hridoy Jomadder
