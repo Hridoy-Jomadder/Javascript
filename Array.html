@@ -511,10 +511,47 @@ true
 //Output
 30,55,60,80
 
+<html>
+    <head>
+        <title> JavaScript Array </title>
+    </head>
+    <body>
+    <script>
 
+    var numArray=[30,32,40,50,55,60,80];
 
+    //numArray.splice(index,removeCount,ClipboardItem);
+    //Add
 
+    numArray.splice(0,0,20);
+    document.write(numArray);
 
+    </script>
+    </body>
+</html>
+//Output
+20,30,32,40,50,55,60,80
+
+<html>
+    <head>
+        <title> JavaScript Array </title>
+    </head>
+    <body>
+    <script>
+
+    var numArray=[30,32,40,50,55,60,80];
+
+    //numArray.splice(index,removeCount,ClipboardItem);
+    //Add
+
+    numArray.splice(3,0,45);
+    document.write(numArray);
+
+    </script>
+    </body>
+</html>
+//Output
+30,32,40,45,50,55,60,80
 
 
 
