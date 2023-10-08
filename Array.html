@@ -235,5 +235,44 @@ a
 //Output
 30,32,40
 
+//Array Find Find Index
+<html>
+    <head>
+        <title> JavaScript Array </title>
+    </head>
+    <body>
+    <script>
 
+    var numArray=[30,32,40,50,55,60,80];
+    
+    var result=numArray.find(function(value){
 
+        return value<50
+    });
+    document.write(result);
+    
+    </script>
+    </body>
+</html>
+//Output
+30
+
+<html>
+    <head>
+        <title> JavaScript Array </title>
+    </head>
+    <body>
+    <script>
+
+    var numArray=[30,32,40,50,55,60,80];
+    
+    var result=numArray.findIndex(function(value){
+
+        return value>50 });
+    document.write(result);
+    
+    </script>
+    </body>
+</html>
+//Output
+4
