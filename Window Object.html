@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title> JavaScript Window Object </title>
+    </head>
+    <body>
+
+    <button onclick="ObjectAlert()">Click - Alert</button><br><br>
+    <button onclick="ObjectConfirm()">Click - Confirm</button><br><br>
+    <button onclick="ObjectPrompt()">Click - Prompt</button><br><br>
+    <button onclick="ObjectOpen()">Click - Open</button><br><br>
+    <button onclick="ObjectClose()">Click - Close</button>
+
+    <script>
+
+    function ObjectAlert(){
+     alert("Save Success");
+    }
+
+    function ObjectConfirm(){
+        let result= confirm("Do you want to delete !");
+        document.write(result);
+    }   
+    
+    function ObjectPrompt(){
+        let result= prompt("Write your Name");
+        document.write(result);
+    }
+    
+    function ObjectOpen(){
+        open();
+    } 
+    
+    function ObjectClose(){
+        close()
+    }
+    
+       
+    </script>
+    </body>
+</html>
+
+//Output
+Click - Alert
+
+Click - Confirm
+
+Click - Prompt
+
+Click - Open
+
+Click - Close
