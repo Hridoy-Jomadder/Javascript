@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> JavaScript Common Events</title>
+    </head>
+    <body>
+
+  <input onchange="MyEvent('Change hoyse')"/> <br>
+  <input onkeydown="MyEvent('key down hoysa')"/> <br>
+  <input onkeyup="MyEvent('key up hoysa')"/> <br>
+
+
+    <script>
+
+   function MyEvent(msg){
+    console.log(msg)
+   }
+
+    </script>
+    </body>
+</html>
+//output
+Change hoyse
+key down hoysa
+key up hoysa
+
+<html>
+    <head>
+        <title> JavaScript Common Events</title>
+    </head>
+  <body onload="MyEvent('Load hoyse')"> 
+
+
+    <script>
+
+   function MyEvent(msg){
+    console.log(msg)
+   }
+
+    </script>
+    </body>
+</html>
+//output
+Load hoyse
