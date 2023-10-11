@@ -91,3 +91,28 @@ Button
 P1 Manupulated
 P2
 P3
+
+<html>
+    <head>
+      <title> Finding Elements By DOM</title>
+    </head>
+  <body> 
+
+
+   <p>P1</p>
+   <p>P2</p>
+   <p>P3</p>       
+
+  <script>
+
+  var MyElements= document.getElementsByTagName('p');
+ 
+  MyElements[1].innerHTML="P1 Manupulated";
+
+  </script>
+  </body>
+</html>
+//Output
+P1
+P1 Manupulated
+P3
