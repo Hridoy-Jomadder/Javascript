@@ -40,3 +40,25 @@ Eid Mobarak
 </html>
 //Output
 Eid Mobarak
+
+<html>
+    <head>
+      <title> Finding Elements By DOM</title>
+    </head>
+  <body> 
+
+
+  <h1 name="MyName"> H1 </h1>
+  <h6 name="MyName"> H2 </h6>
+  <button name="MyName"> Button </button>
+
+  <script>
+
+  var MyElements= document.getElementsByName('MyName');
+ 
+  MyElements[0].innerHTML="H1 Manupulated";
+
+  </script>
+  </body>
+</html>
+//Output
