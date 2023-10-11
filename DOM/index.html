@@ -19,3 +19,27 @@
 </html>
 //Output
 Eid Mobarak
+
+
+<html>
+    <head>
+      <title> Finding Elements By DOM</title>
+    </head>
+  <body onload="MyEvent('Load hoyse')"> 
+
+
+  <h1 class="MyClass"> </h1>
+  <h6 class="MyClass"> </h6>
+  <button class="MyClass"> </button>
+
+  <script>
+
+  var MyElements= document.getElementsByClassName('MyClass');
+ 
+  MyElements[2].innerHTML="Eid Mobarak";
+
+  </script>
+  </body>
+</html>
+//Output
+Eid Mobarak
