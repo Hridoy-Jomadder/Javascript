@@ -67,3 +67,28 @@ localhost
 </html>
 //Output
 10/13/2023 23:33:50
+
+
+<html>
+    <head>
+      <title> HTML DOM Document</title>
+    </head>
+  <body> 
+
+
+   <p></p>
+   <button onclick="Demo()">Click</button>
+
+  <script>
+
+    function Demo(){
+       let info=document.title;
+       document.getElementsByTagName('p')[0].innerHTML=info;
+
+    }
+
+  </script>
+  </body>
+</html>
+//Output
+HTML DOM Document
